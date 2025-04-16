@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>PayloadContent</key>
+        <array>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>HTTPS</string>
+                    <key>ServerURL</key>
+                    <string>https://free.shecan.ir/dns-query</string>
+                </dict>
+                <key>OnDemandRules</key>
+                <array>
+                    <dict>
+                        <key>Action</key>
+                        <string>Connect</string>
+                        <key>InterfaceTypeMatch</key>
+                        <string>WiFi</string>
+                    </dict>
+                    <dict>
+                        <key>Action</key>
+                        <string>Connect</string>
+                        <key>InterfaceTypeMatch</key>
+                        <string>Cellular</string>
+                    </dict>
+                    <dict>
+                        <key>Action</key>
+                        <string>Disconnect</string>
+                    </dict>
+                </array>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Shecan DNS over HTTPS</string>
+                <key>PayloadDisplayName</key>
+                <string>Shecan DNS over HTTPS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.c760ed14-9bd1-460c-bb9f-8f71dd5cd842</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>088033af-95d9-4d5f-8392-701f5314f1dc</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>ProhibitDisablement</key>
+                <false/>
+            </dict>
+            <dict>
+                <key>DNSSettings</key>
+                <dict>
+                    <key>DNSProtocol</key>
+                    <string>TLS</string>
+                    <key>ServerName</key>
+                    <string>free.shecan.ir</string>
+                </dict>
+                <key>OnDemandRules</key>
+                <array>
+                    <dict>
+                        <key>Action</key>
+                        <string>Connect</string>
+                        <key>InterfaceTypeMatch</key>
+                        <string>WiFi</string>
+                    </dict>
+                    <dict>
+                        <key>Action</key>
+                        <string>Connect</string>
+                        <key>InterfaceTypeMatch</key>
+                        <string>Cellular</string>
+                    </dict>
+                    <dict>
+                        <key>Action</key>
+                        <string>Disconnect</string>
+                    </dict>
+                </array>
+                <key>PayloadDescription</key>
+                <string>Configures device to use Shecan Encrypted DNS over TLS</string>
+                <key>PayloadDisplayName</key>
+                <string>Shecan DNS over TLS</string>
+                <key>PayloadIdentifier</key>
+                <string>com.apple.dnsSettings.managed.eb62adfe-18e0-40f6-a97b-74480cdcf627</string>
+                <key>PayloadType</key>
+                <string>com.apple.dnsSettings.managed</string>
+                <key>PayloadUUID</key>
+                <string>cbd43f0a-a7c5-4316-a3da-f2fd910ebd46</string>
+                <key>PayloadVersion</key>
+                <integer>1</integer>
+                <key>ProhibitDisablement</key>
+                <false/>
+            </dict>
+        </array>
+        <key>PayloadDescription</key>
+        <string>Adds different Shecan DNS configurations to macOS X and iOS based systems</string>
+        <key>PayloadDisplayName</key>
+        <string>Shecan Secure DNS</string>
+        <key>PayloadIdentifier</key>
+        <string>ir.shecan.28cb20fc-aa81-4dc7-a46d-23e0157f9a53</string>
+        <key>PayloadRemovalDisallowed</key>
+        <false/>
+        <key>PayloadType</key>
+        <string>Configuration</string>
+        <key>PayloadUUID</key>
+        <string>28cb20fc-aa81-4dc7-a46d-23e0157f9a53</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+    </dict>
+</plist>
